@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>False Kingdom</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Mode Selection Screen -->
+  <div id="menu-screen" class="screen active">
+    <div class="menu-container">
+      <h1 class="game-title">False Kingdom</h1>
+      <p class="game-subtitle">A Game of Conquest</p>
+      <div class="menu-buttons">
+        <button id="btn-vs-friend" class="menu-btn">Play vs Friend</button>
+        <button id="btn-vs-ai" class="menu-btn">Play vs AI</button>
+      </div>
+      <div id="difficulty-select" class="difficulty-select hidden">
+        <p class="difficulty-label">Choose Difficulty</p>
+        <div class="difficulty-buttons">
+          <button id="btn-easy" class="menu-btn diff-btn">Easy</button>
+          <button id="btn-medium" class="menu-btn diff-btn">Medium</button>
+          <button id="btn-hard" class="menu-btn diff-btn">Hard</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="screen">
+    <div class="game-layout">
+      <!-- Top info bar -->
+      <div class="game-header">
+        <button id="btn-back" class="back-btn">&#9668; Menu</button>
+        <div id="turn-indicator" class="turn-indicator">
+          <span id="turn-text">White's Turn</span>
+        </div>
+        <div id="game-mode-label" class="mode-label"></div>
+      </div>
+
+      <div class="game-body">
+        <!-- Black captured pieces -->
+        <div class="captured-panel" id="captured-black">
+          <h3>Black's Captures</h3>
+          <div class="captured-pieces" id="captured-black-pieces"></div>
+        </div>
+
+        <!-- Board -->
+        <div class="board-wrapper">
+          <div class="board-frame">
+            <div class="rank-labels left">
+              <span>8</span><span>7</span><span>6</span><span>5</span>
+              <span>4</span><span>3</span><span>2</span><span>1</span>
+            </div>
+            <div id="board" class="board"></div>
+            <div class="rank-labels right">
+              <span>8</span><span>7</span><span>6</span><span>5</span>
+              <span>4</span><span>3</span><span>2</span><span>1</span>
+            </div>
+            <div class="file-labels">
+              <span>a</span><span>b</span><span>c</span><span>d</span>
+              <span>e</span><span>f</span><span>g</span><span>h</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- White captured pieces -->
+        <div class="captured-panel" id="captured-white">
+          <h3>White's Captures</h3>
+          <div class="captured-pieces" id="captured-white-pieces"></div>
+        </div>
+
+        <!-- Tutorial Side Panel -->
+        <div id="tutorial-overlay" class="tutorial-panel">
+          <div class="tutorial-card">
+            <div class="tutorial-piece-preview" id="tutorial-piece-preview"></div>
+            <h2 class="tutorial-title" id="tutorial-title"></h2>
+            <p class="tutorial-text" id="tutorial-text"></p>
+            <button class="tutorial-speak-btn" id="btn-speak" title="Read aloud">&#128264;</button>
+            <div class="tutorial-nav">
+              <button class="menu-btn secondary tutorial-nav-btn" id="btn-tut-back">Back</button>
+              <span class="tutorial-step-dots" id="tutorial-dots"></span>
+              <button class="menu-btn tutorial-nav-btn" id="btn-tut-next">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- "Do you know how to play?" Modal -->
+  <div id="know-modal" class="modal-overlay">
+    <div class="modal know-modal">
+      <h2>First Time?</h2>
+      <p>False Kingdom has special rules. Want to learn how to play?</p>
+      <div class="modal-buttons">
+        <button id="btn-teach-me" class="menu-btn">Teach Me the Game!</button>
+        <button id="btn-i-know" class="menu-btn secondary">I Already Know</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Over Modal -->
+  <div id="game-over-modal" class="modal-overlay">
+    <div class="modal">
+      <h2 id="game-over-title">Game Over</h2>
+      <p id="game-over-message"></p>
+      <div class="modal-buttons">
+        <button id="btn-play-again" class="menu-btn">Play Again</button>
+        <button id="btn-main-menu" class="menu-btn secondary">Main Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

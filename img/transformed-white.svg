@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Base flames rising -->
+  <path d="M24 62 Q20 52 26 44 Q22 50 20 56 Q18 48 24 40" fill="#e04010" opacity="0.6"/>
+  <path d="M40 62 Q44 52 38 44 Q42 50 44 56 Q46 48 40 40" fill="#e04010" opacity="0.6"/>
+  <path d="M32 64 Q28 54 32 42 Q36 54 32 64" fill="#f07020" opacity="0.5"/>
+  <!-- Left flame wing - sweeping upward -->
+  <path d="M28 30 Q16 24 4 6 Q8 16 12 22 Q6 12 2 2 Q10 14 16 22 Q12 16 10 10 Q16 18 20 24 L24 28 Z" fill="#f5a020" stroke="#e08010" stroke-width="0.4"/>
+  <path d="M26 28 Q14 20 6 8 Q12 18 20 24" fill="#f5c840" opacity="0.5"/>
+  <!-- Right flame wing -->
+  <path d="M36 30 Q48 24 60 6 Q56 16 52 22 Q58 12 62 2 Q54 14 48 22 Q52 16 54 10 Q48 18 44 24 L40 28 Z" fill="#f5a020" stroke="#e08010" stroke-width="0.4"/>
+  <path d="M38 28 Q50 20 58 8 Q52 18 44 24" fill="#f5c840" opacity="0.5"/>
+  <!-- Elongated body - sleek, not round -->
+  <path d="M28 40 Q28 28 32 18 Q36 28 36 40 Q34 44 32 46 Q30 44 28 40 Z" fill="#f5c030" stroke="#d4a010" stroke-width="0.5"/>
+  <!-- Body inner glow -->
+  <path d="M30 38 Q30 28 32 22 Q34 28 34 38 Q33 42 32 43 Q31 42 30 38 Z" fill="#f8e060" opacity="0.6"/>
+  <!-- Neck/head - elegant upward -->
+  <path d="M30 20 Q32 12 34 20" fill="#f5d040" stroke="#d4a010" stroke-width="0.3"/>
+  <!-- Head - angular, fierce -->
+  <path d="M28 14 Q30 8 32 10 Q34 8 36 14 Q34 16 32 15 Q30 16 28 14 Z" fill="#f5d040" stroke="#d4a010" stroke-width="0.5"/>
+  <!-- Crown flame crest - tall and dramatic -->
+  <path d="M32 10 Q30 2 28 -2 Q31 4 32 8" fill="#e04010" stroke="#c03008" stroke-width="0.3"/>
+  <path d="M32 10 Q32 0 32 -4 Q33 2 33 8" fill="#f06018" stroke="#c03008" stroke-width="0.3"/>
+  <path d="M32 10 Q34 2 36 -2 Q33 4 32 8" fill="#e04010" stroke="#c03008" stroke-width="0.3"/>
+  <path d="M30 12 Q28 6 26 2 Q29 6 30 10" fill="#f08028" opacity="0.7"/>
+  <path d="M34 12 Q36 6 38 2 Q35 6 34 10" fill="#f08028" opacity="0.7"/>
+  <!-- Eyes - fierce, glowing -->
+  <ellipse cx="30" cy="12.5" rx="1.2" ry="0.9" fill="#fff8d0"/>
+  <ellipse cx="30.2" cy="12.5" rx="0.5" ry="0.7" fill="#c03008"/>
+  <ellipse cx="34" cy="12.5" rx="1.2" ry="0.9" fill="#fff8d0"/>
+  <ellipse cx="34.2" cy="12.5" rx="0.5" ry="0.7" fill="#c03008"/>
+  <!-- Beak - sharp, pointed -->
+  <path d="M32 14 L30 15.5 L32 18 L34 15.5 Z" fill="#d48010" stroke="#b06008" stroke-width="0.3"/>
+  <!-- Tail flames - long, flowing downward -->
+  <path d="M30 44 Q24 52 18 60 Q26 54 30 48" fill="#f5a020" opacity="0.7"/>
+  <path d="M32 46 Q32 56 32 64 Q34 56 34 48" fill="#f07018" opacity="0.6"/>
+  <path d="M34 44 Q40 52 46 60 Q38 54 34 48" fill="#f5a020" opacity="0.7"/>
+  <path d="M29 42 Q22 50 16 58 Q24 52 28 44" fill="#e06018" opacity="0.5"/>
+  <path d="M35 42 Q42 50 48 58 Q40 52 36 44" fill="#e06018" opacity="0.5"/>
+  <!-- Ember sparks -->
+  <circle cx="8" cy="10" r="0.8" fill="#f5c030" opacity="0.7"/>
+  <circle cx="56" cy="8" r="0.7" fill="#f5c030" opacity="0.6"/>
+  <circle cx="14" cy="18" r="0.6" fill="#f08020" opacity="0.5"/>
+  <circle cx="50" cy="16" r="0.5" fill="#f08020" opacity="0.5"/>
+  <circle cx="20" cy="6" r="0.5" fill="#f5d050" opacity="0.6"/>
+  <circle cx="44" cy="4" r="0.6" fill="#f5d050" opacity="0.6"/>
+  <circle cx="24" cy="56" r="0.7" fill="#e06018" opacity="0.4"/>
+  <circle cx="40" cy="54" r="0.6" fill="#e06018" opacity="0.4"/>
+</svg>

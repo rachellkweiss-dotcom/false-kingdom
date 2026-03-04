@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Left wing -->
+  <path d="M8 28 Q2 10 18 14 Q22 16 26 22 L24 28 Z" fill="#e8dcc0" stroke="#c4b89a" stroke-width="0.5"/>
+  <!-- Right wing -->
+  <path d="M56 28 Q62 10 46 14 Q42 16 38 22 L40 28 Z" fill="#e8dcc0" stroke="#c4b89a" stroke-width="0.5"/>
+  <!-- Body -->
+  <ellipse cx="32" cy="36" rx="11" ry="14" fill="#f5f0e0"/>
+  <ellipse cx="32" cy="36" rx="11" ry="14" fill="none" stroke="#c4b89a" stroke-width="0.8"/>
+  <!-- Belly scales -->
+  <path d="M27 32 Q32 30 37 32 M26 36 Q32 34 38 36 M27 40 Q32 38 37 40" fill="none" stroke="#c4b89a" stroke-width="0.5" opacity="0.6"/>
+  <!-- Neck -->
+  <path d="M28 24 Q32 18 36 24" fill="#f5f0e0" stroke="#c4b89a" stroke-width="0.5"/>
+  <!-- Head -->
+  <ellipse cx="32" cy="16" rx="7" ry="6" fill="#f5f0e0" stroke="#c4b89a" stroke-width="0.8"/>
+  <!-- Snout -->
+  <ellipse cx="32" cy="19" rx="4" ry="2.5" fill="#e8dcc0" stroke="#c4b89a" stroke-width="0.5"/>
+  <!-- Left horn -->
+  <path d="M26 12 L21 3 L28 10" fill="#d4c494" stroke="#b0a070" stroke-width="0.5"/>
+  <!-- Right horn -->
+  <path d="M38 12 L43 3 L36 10" fill="#d4c494" stroke="#b0a070" stroke-width="0.5"/>
+  <!-- Eyes -->
+  <ellipse cx="28" cy="14" rx="1.8" ry="1.4" fill="#c9a84c"/>
+  <circle cx="28.4" cy="14" r="0.8" fill="#1a1114"/>
+  <ellipse cx="36" cy="14" rx="1.8" ry="1.4" fill="#c9a84c"/>
+  <circle cx="36.4" cy="14" r="0.8" fill="#1a1114"/>
+  <!-- Nostrils -->
+  <circle cx="30" cy="19" r="0.7" fill="#b0a070"/>
+  <circle cx="34" cy="19" r="0.7" fill="#b0a070"/>
+  <!-- Tail -->
+  <path d="M26 48 Q18 56 12 58 Q14 54 16 52 Q20 50 24 46" fill="#f5f0e0" stroke="#c4b89a" stroke-width="0.8"/>
+  <!-- Tail spike -->
+  <path d="M12 58 L8 55 L14 56" fill="#d4c494"/>
+  <!-- Claws -->
+  <path d="M24 48 L22 52 L26 50" fill="#d4c494" stroke="#b0a070" stroke-width="0.3"/>
+  <path d="M40 48 L42 52 L38 50" fill="#d4c494" stroke="#b0a070" stroke-width="0.3"/>
+  <!-- Wing membrane lines -->
+  <line x1="10" y1="24" x2="22" y2="20" stroke="#c4b89a" stroke-width="0.3" opacity="0.5"/>
+  <line x1="12" y1="18" x2="24" y2="22" stroke="#c4b89a" stroke-width="0.3" opacity="0.5"/>
+  <line x1="54" y1="24" x2="42" y2="20" stroke="#c4b89a" stroke-width="0.3" opacity="0.5"/>
+  <line x1="52" y1="18" x2="40" y2="22" stroke="#c4b89a" stroke-width="0.3" opacity="0.5"/>
+</svg>
