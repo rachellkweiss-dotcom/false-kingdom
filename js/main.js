@@ -338,9 +338,6 @@ function showGameOver(status) {
   } else if (status.result === 'draw_kings_only') {
     gameOverTitle.textContent = 'A Standoff!';
     gameOverMessage.textContent = 'Only Dragons remain. Neither can defeat the other. It\'s a draw!';
-  } else if (status.result === 'stalemate') {
-    gameOverTitle.textContent = 'Stalemate';
-    gameOverMessage.textContent = 'Neither kingdom can advance. A draw.';
   }
 }
 

@@ -116,10 +116,7 @@ export function getGameStatus(board, currentTurn) {
   const inDanger = isKingInDanger(board, currentTurn);
 
   if (moves.length === 0) {
-    if (inDanger) {
-      return { over: true, result: 'king_trapped', winner: oppositeColor(currentTurn) };
-    }
-    return { over: true, result: 'stalemate', winner: null };
+    return { over: true, result: 'king_trapped', winner: oppositeColor(currentTurn) };
   }
 
   return { over: false, inCheck: inDanger };

@@ -104,10 +104,7 @@ function minimax(board, depth, alpha, beta, maximizing) {
 
   if (depth === 0 || moves.length === 0) {
     if (moves.length === 0) {
-      if (isKingInDanger(board, currentColor)) {
-        return { score: maximizing ? -99999 + (4 - depth) : 99999 - (4 - depth), move: null };
-      }
-      return { score: 0, move: null };
+      return { score: maximizing ? -99999 + (4 - depth) : 99999 - (4 - depth), move: null };
     }
     return { score: evaluateBoard(board), move: null };
   }

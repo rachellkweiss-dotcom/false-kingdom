@@ -3,3 +3,8 @@ node_modules/
 Thumbs.db
 *.log
 .env
+debug-test.mjs
+test.html
+package.json
+package-lock.json
+pdf-pages/
